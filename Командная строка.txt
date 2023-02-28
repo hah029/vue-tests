@@ -1,0 +1,55 @@
+
+Установка корневой директории:
+cd C:\Users\k.tikhomolov\K2\JavaScript_html\Projects\js-vue\initial
+cd F:\Kostya\Work_JS\js-vue\initial
+
+
+Запуск локального сервера:
+npm run serve
+
+http://localhost:8080/
+
+
+Проверка установленной версии nodejs:
+node -v или
+npm -v
+
+Установка SASS / SCSS пакета (-g - ставим глобально):
+npm install -g sass
+(если не сработает установка при помощи стандартной команды, то попробовать по очереди эти две)
+npm i sass-loader
+npm i node-sass
+
+------------------------------------------------------------------
+
+git status
+git add .
+git commit -m "текст коммита"
+git push
+
+
+
+------------------------------------------------------------------
+package.json
+"build": "vue-cli-service build",
+"build": "webpack",
+
+
+
+
+
+------------------------------------------------------------------
+https://github.com/settings/ssh/new
+
+k2incho_s_key
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDaACxvlcwM+P2l8lN//w4Vefa40xRIjg8RVT/8YLPSsG5xXumAL/u9umodPOXqf5Pc3wsYosXyGPdWgEOGVsS3IpCSrvbrDo37fqgyjTMnjYuaRRVhUkgOqc5kPZ/P8T8TN1XY/K5I2SDRpYIr8X7jU1zD6c1E68DAvWqNx4gzBKpyFgwnT11T6FHiQJ87EmfbayuQgeinlO9bVaLsuUBosd4dHEPGpzCVivyW7IotekM5DsllR3Y6P1VwlvF1Mes2pEgi6ZtrMuWssnGqueISxUMS0jA/zLcXQMZgTr9fKAvoEGsXEqf8hjKzVmMmAJaDxD+gFD5SW3f8w5jEF0d48cGPh3lqjbBL0Aoll7CwxlTD0mkJa4t1bw8PXBi14LHXLTEK29crA1D6zBVE8z+qYTQUsjvtPKKNEPoxeSAWR/UWrarAoDqKydJYVnO3JaeRtIri0iP+C2f6mPXNB6xQbxgqfORCFVgSO7BitNBHuPyqxnULSHorjqcWAVLt0eE= k2incho\k2incho@K2INcHO
+
+
+
+
+------------------------------------------------------------------
+УСТАНОВКА VUE НА КОМП + НАСТРОЙКА ПРОЕКТА
+npm i -g @vue/cli
+меняем директорию на нужную нам
+

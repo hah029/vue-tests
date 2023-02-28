@@ -1,26 +1,40 @@
+
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="parent-page">
+      <!-- <second-page class="block"/> -->
+      <first-page class="block"/>
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+<script>
+  import FirstPage from './components/FirstPage.vue'
+  // import SecondPage from './components/SecondPage.vue'
+  export default {
+      // components: { FirstPage, SecondPage }
+      // components: { SecondPage }
+      components: { FirstPage }
   }
-}
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .parent-page {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      overflow: auto;
+      /* background-color: #F5F5F5; */
+  }
+  .block {
+      display: block;
+  }
+
 </style>
